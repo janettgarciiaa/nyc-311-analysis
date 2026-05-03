@@ -1,22 +1,29 @@
 # NYC 311 Service Request Analysis
 
 ## Overview
-This project analyzes NYC 311 service requests (Bronx, 2025) to identify patterns in complaint types, resolution times, and unresolved cases.
+This project analyzes NYC 311 service request data for the Bronx in 2025. The goal was to explore complaint patterns, resolution times, and unresolved cases using Python.
 
 ## Tools Used
 - Python
 - Pandas
-- Matplotlib / Seaborn
+- Matplotlib
 - Jupyter Notebook
 
-## Key Insights
-- Certain complaint types take significantly longer to resolve
-- Some categories have higher rates of unresolved cases
-- Seasonal trends impact complaint volume
+## Key Questions
+- Which complaint types appear most often?
+- Which complaints take the longest to resolve?
+- Which categories are more likely to remain unresolved?
+- Are there patterns in complaint volume over time?
 
-## Files
-- notebook.ipynb
-- dataset_sample.csv
+## Dataset
+The full dataset was too large to upload to GitHub, so this repository includes a smaller sample file: `sample_data.csv`.
 
-## How to Run
-Open the notebook in Jupyter and run all cells.
+The original data comes from NYC Open Data 311 Service Requests.
+
+## Project Files
+- `Intro to DS_Project 1.ipynb` — main Jupyter Notebook
+- `sample_data.csv` — smaller sample dataset used for GitHub upload
+- `Intro to DS_Project 1.pdf` — project report, if included
+
+## Summary
+This project helped me practice real-world data cleaning, exploratory data analysis, and communicating insights from a large public dataset.
