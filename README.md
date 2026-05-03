@@ -1,2 +1,22 @@
-# nyc-311-analysis
-nd-to-end data analysis project using NYC 311 service request data (Bronx 2025), focusing on complaint trends, resolution times, and unresolved cases using Python (Pandas, Matplotlib) and exploratory data analysis.
+# NYC 311 Service Request Analysis
+
+## Overview
+This project analyzes NYC 311 service requests (Bronx, 2025) to identify patterns in complaint types, resolution times, and unresolved cases.
+
+## Tools Used
+- Python
+- Pandas
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+## Key Insights
+- Certain complaint types take significantly longer to resolve
+- Some categories have higher rates of unresolved cases
+- Seasonal trends impact complaint volume
+
+## Files
+- notebook.ipynb
+- dataset_sample.csv
+
+## How to Run
+Open the notebook in Jupyter and run all cells.
