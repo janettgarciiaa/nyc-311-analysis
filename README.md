@@ -1,29 +1,35 @@
-# NYC 311 Service Request Analysis
+# NYC 311 Service Request Analysis (Bronx, 2025)
 
 ## Overview
-This project analyzes NYC 311 service request data for the Bronx in 2025. The goal was to explore complaint patterns, resolution times, and unresolved cases using Python.
+This project analyzes NYC 311 service request data to uncover patterns in complaint types, resolution times, and unresolved cases. The focus is on Bronx data from 2025 to better understand how non-emergency issues are handled.
+
+## Key Insights
+- Certain complaint types appear significantly more frequently than others (e.g., noise-related issues)
+- Some categories take longer to resolve, indicating possible inefficiencies
+- A portion of requests remain unresolved, depending on complaint type
+- Complaint volume shows patterns over time
+
+## Why This Matters
+Understanding 311 data can help identify inefficiencies in city services and improve how public issues are handled. This type of analysis can support better decision-making and resource allocation.
 
 ## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
-
-## Key Questions
-- Which complaint types appear most often?
-- Which complaints take the longest to resolve?
-- Which categories are more likely to remain unresolved?
-- Are there patterns in complaint volume over time?
+- Python (Pandas)
+- Data Cleaning & Transformation
+- Exploratory Data Analysis (EDA)
+- Data Visualization (Matplotlib)
 
 ## Dataset
-The full dataset was too large to upload to GitHub, so this repository includes a smaller sample file: `sample_data.csv`.
+The original dataset is from NYC Open Data (311 Service Requests).  
+Due to size limitations, this repository includes a smaller sample dataset.
 
-The original data comes from NYC Open Data 311 Service Requests.
+## Files
+- `Intro to DS_Project 1.ipynb` — main analysis notebook
+- `sample_data.csv` — reduced dataset for GitHub
+- `Intro to DS_Project 1.pdf` — final report
 
-## Project Files
-- `Intro to DS_Project 1.ipynb` — main Jupyter Notebook
-- `sample_data.csv` — smaller sample dataset used for GitHub upload
-- `Intro to DS_Project 1.pdf` — project report, if included
+## How to Run
+1. Open the notebook in Jupyter
+2. Run all cells to reproduce the analysis
 
 ## Summary
-This project helped me practice real-world data cleaning, exploratory data analysis, and communicating insights from a large public dataset.
+This project demonstrates my ability to clean, analyze, and extract insights from real-world public data using Python.
